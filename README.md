@@ -28,4 +28,6 @@ Reducing bias via EasyEnsembleClassifier proved to be most effective in terms of
 
 ![EasyEnsembleClassifier Classification Report](resources/easyensemble_cr.png)
 
-Although precision for identifying high risk cases, it remains higher than the precison of all other evaluated models, which ranged 0.01-0.02.
+Although precision for identifying high risk cases is low, it remains higher than the precison of all other evaluated models, which ranged 0.01-0.02.
+
+Because EasyEnsembleClassifier is the most accurate model, it's recommended above the others, though it should be noted that it will erroneously classify many low risk cases as high risk, so it may be worth seeking out a better model.
